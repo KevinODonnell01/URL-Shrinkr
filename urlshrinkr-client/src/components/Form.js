@@ -38,11 +38,11 @@ class Form extends React.Component {
 
         //If the user has input a prefered alias then we use it, if not, we generate one
         var generatedKey = nanoid(5);
-        var generatedURL = "URLShrinkr.com/" + generatedKey
+        var generatedURL = "url-shrinkr-14d24dcb33a9.herokuapp.com/" + generatedKey
 
         if (this.state.preferedAlias !== '') {
             generatedKey = this.state.preferedAlias
-            generatedURL = "URLShrinkr.com/" + this.state.preferedAlias
+            generatedURL = "url-shrinkr-14d24dcb33a9.herokuapp.com/" + this.state.preferedAlias
         }
 
         const db = getDatabase();
@@ -175,7 +175,7 @@ class Form extends React.Component {
                         <label htmlFor="basic-url">Your URL To Be Shrunk</label>
                         <div className="input-group mb-3">
                             <div className="input-group-prepend">
-                                <span className="input-group-text">URLShrinkr.com/</span>
+                                <span className="input-group-text">url-shrinkr-14d24dcb33a9.herokuapp.com/</span>
                             </div>
                             <input
                                 id="preferedAlias"
