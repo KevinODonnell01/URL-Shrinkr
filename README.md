@@ -1,4 +1,4 @@
-# URL-Shrinkr
+# URL-Shrinkr  https://url-shrinkr-14d24dcb33a9.herokuapp.com/app
 I've always seen applications like tinyurl and thought about their design so I decided to design my own and make a similar app called URL-Shrinkr. 
  The front-end is built using React JS, while the server and database are established with Python Flask and Firebase Database, respectively. The application is deployed on Heroku.
 
