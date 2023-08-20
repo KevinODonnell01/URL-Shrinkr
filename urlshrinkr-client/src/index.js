@@ -7,13 +7,13 @@ import reportWebVitals from './reportWebVitals';
 import { initializeApp } from "firebase/app";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAjWQrV3ybSY7GJF2sT1b8TUsSb_at92qE",
-  authDomain: "urlshrinkr.firebaseapp.com",
-  projectId: "urlshrinkr",
-  storageBucket: "urlshrinkr.appspot.com",
-  messagingSenderId: "51282170592",
-  appId: "1:51282170592:web:7d9fee043e0b2812e6b685",
-  measurementId: "G-LN1C42BM0E"
+    apiKey: "AIzaSyAjWQrV3ybSY7GJF2sT1b8TUsSb_at92qE",
+    authDomain: "urlshrinkr.firebaseapp.com",
+    projectId: "urlshrinkr",
+    storageBucket: "urlshrinkr.appspot.com",
+    messagingSenderId: "51282170592",
+    appId: "1:51282170592:web:7d9fee043e0b2812e6b685",
+    measurementId: "G-LN1C42BM0E"
 };
 
 
